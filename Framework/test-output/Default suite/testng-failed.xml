@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium.Framework.MainClass">
+      <class name="Practice.Fibonacci">
         <methods>
-          <include name="teardown"/>
-          <include name="driverinitialization"/>
-          <include name="faq"/>
+          <include name="palindrome"/>
         </methods>
-      </class> <!-- Selenium.Framework.MainClass -->
+      </class> <!-- Practice.Fibonacci -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

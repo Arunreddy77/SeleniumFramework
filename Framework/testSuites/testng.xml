@@ -6,7 +6,7 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Selenium.Framework.MainClass"/>
+      <class name="facebook.facebook"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
