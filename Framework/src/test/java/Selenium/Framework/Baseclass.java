@@ -78,7 +78,7 @@ public class Baseclass {
 
 	}
 
-	@AfterTest
+	@AfterTest(enabled=false)
 	public void teardown() {
 		driver.quit();
 	}

@@ -122,7 +122,15 @@ public class Fibonacci {
 		}
 	}
 	
-	
+	@Test
+	public void factorial() {
+		int n=5;
+		int o=1;
+		for(int i=1; i<=n; i++) {
+			o = o*i;
+		}
+		System.out.println(o);
+	}
 	
 	
 	

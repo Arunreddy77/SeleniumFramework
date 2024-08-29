@@ -5,7 +5,7 @@
     <classes>
       <class name="Practice.Fibonacci">
         <methods>
-          <include name="palindrome"/>
+          <include name="factorial"/>
         </methods>
       </class> <!-- Practice.Fibonacci -->
     </classes>
